@@ -3,7 +3,15 @@ node_modules
 /dist
 AuthConfig.js
 AuthService.js
-
+.editorconfig
+.vscode
+@types
+.browserlistrc
+package.json
+package-lock.json
+vue.config.js
+.eslintrc.js
+.editorconfig
 
 # local env files
 .env.local
