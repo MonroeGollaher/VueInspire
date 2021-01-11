@@ -1,7 +1,7 @@
 class ClockService {
   showTime() {
     var a = new Date()
-    document.getElementById('disp').innerHTML = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds()
+    document.getElementById('clock').innerHTML = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds()
     setInterval(this.showTime, 1000)
   }
 }
